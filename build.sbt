@@ -6,6 +6,6 @@ scalaVersion := "2.11.8"
 
 
 libraryDependencies ++= Seq(
-  "org.apache.kafka" % "kafka_2.11" % "0.10.0.0"
+  "org.apache.kafka" % "kafka_2.11" % "0.10.0.1"
 )
 
