@@ -29,7 +29,7 @@ class KafkaConsumer(topic: String, groupId: String, zookeeperConnect: String) {
   def read(): Option[String] =
     try {
       if (hasNext) {
-        println("Getting message from queue.............")
+//        println("Getting message from queue.............")
         val message = iterator.next().message()
         Some(new String(message))
       } else {
