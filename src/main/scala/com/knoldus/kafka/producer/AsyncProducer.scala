@@ -35,5 +35,9 @@ class AsyncProducer(brokerList: String) {
 
     }
 
+  def close(): Unit = {
+    producer.close
+  }
+
 
 }
