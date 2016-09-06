@@ -34,5 +34,8 @@ class KafkaProducer(brokerList: String) {
 
     }
 
+  def close(): Unit = {
+    producer.close()
+  }
 
 }
