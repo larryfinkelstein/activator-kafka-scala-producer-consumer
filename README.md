@@ -44,3 +44,8 @@ Start  Kafka server:
     $ ./activator "run-main com.knoldus.kafka.demo.ConsumerApp"
   
   You can start multiple consumers at a time which pull messages from kafka queue.
+
+####
+
+    set JAVA_OPTS="-Xmx2G"
+    sbt run
